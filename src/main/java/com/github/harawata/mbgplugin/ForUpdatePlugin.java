@@ -31,7 +31,8 @@ import org.mybatis.generator.api.dom.xml.TextElement;
 import org.mybatis.generator.api.dom.xml.XmlElement;
 
 /**
- * This plugin adds setForUpdate() method to the example class.
+ * This plugin adds setForUpdate(boolean) method to the example class.<br />
+ * When it's enabled, 'for update' clause is appended to the select statement.
  * 
  * @author Iwao AVE!
  */
